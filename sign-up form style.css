@@ -1,0 +1,82 @@
+*{  
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input{
+    padding: 4px;
+    font-size: medium;
+    width: 6.7cm;
+    border: 0.5px solid;
+    border-color: #e5e7eb;
+    border-radius: 5px;
+}    
+input:focus{
+    border-color: blue;
+}
+label{
+    font-size: small;
+}
+.one{
+    width: 40%;
+    float: left;
+    position: relative;
+}
+.five{
+    position: absolute;
+    bottom: 0px;
+    left: 150px;
+    background-color: transparent;
+    color: white;
+}
+.two{
+    width: 57%;
+    float: right;
+}
+#flex{
+    display: flex;
+}   
+.box2{
+    margin-left: 75px;
+    
+}
+.six{
+    position: relative;
+}
+.box1{
+    background-color: black;
+    width: 533px;
+    height: 100px;
+    opacity: 0.8;
+    margin-left: 0px;
+    position: absolute;
+    margin-top: 150px;
+    background-attachment: fixed;
+}
+#me{
+    background-color: brown;
+    font-size: large;
+    color: white;
+    border-radius: 5px;
+    border-color: brown;
+    padding-left: 53px;
+    padding-right: 53px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border: 10px;
+}
+#you{
+    font-size: large;
+}
+@font-face {
+    font-family: norse-bold;
+    src: url(Norse-Bold.otf.ttf);
+}
+h1{
+    font-family: norse-bold;
+    src: url(Norse-Bold.otf.ttf);
+    font-size: xx-large;
+    margin-top: -70px;
+    margin-left: 250px;
+    background-color: transparent;
+    color: white;
+}
